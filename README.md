@@ -34,7 +34,7 @@ Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/tr", 
 _**Capture d'écran :**_
 ```
 ![image](https://github.com/user-attachments/assets/543757ce-7883-4b3f-b128-67e5787d321c)
-
+```
 ### 2. Envoyer des instructions SQL pour créer une table
 
 #### a) Demander un objet `Statement` à partir de l’objet `Connection`
