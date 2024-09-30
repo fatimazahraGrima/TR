@@ -133,7 +133,6 @@ _**Capture d'écran :**_
 ## Exercice 3 : Requête Libre et Métadonnées des Types de Données
 
 ### 1. Exécution d'une Requête Libre
-
 Permettre à l'utilisateur d'entrer une requête SQL libre via le clavier :
 
 ```java
@@ -176,7 +175,7 @@ JDBC - API pour la connexion à la base de données MySQL.
 NetBeans IDE - Environnement de développement.
 MySQL - Base de données pour stocker et gérer les données.
 Git & GitHub - Outils de gestion de code source et collaboration.
-### Conclusion
+### Conclusion:
 
 En conclusion, ce projet démontre comment intégrer une base de données MySQL avec une application Java en utilisant JDBC. Nous avons appris à créer un projet Java, établir une connexion à une base de données, insérer et récupérer des données via des requêtes SQL, tout en utilisant NetBeans comme environnement de développement. Ce TP illustre les bases de la gestion de données dans une application Java, offrant une base solide pour des projets plus complexes.
 ---
