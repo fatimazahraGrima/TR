@@ -50,14 +50,15 @@ Statement stmt = conn.createStatement();
 Créez une classe `CreateTable` avec une méthode `createTable` pour créer la table `DevData` :
 
 _**Capture d'écran :**_
-```
+
 ![image](https://github.com/user-attachments/assets/9f87ffed-3b1b-4fb8-8650-3e64401f05d8)
-```
+
 
 #### c) Insérer des valeurs dans la table
 
 Après avoir créé la table, insérez les valeurs appropriées :
 _**Capture d'écran :**_
+
 ![image](https://github.com/user-attachments/assets/5239188e-0834-4489-96bb-0df8da9b8c1f)
 
 ### Tester dans la classe `Test`
@@ -65,13 +66,12 @@ _**Capture d'écran :**_
 Ajoutez une méthode `main` pour tester la connexion et l'insertion dans la table :
 
 _**Capture d'écran :**_
-```
+
 ![image](https://github.com/user-attachments/assets/32bc5a61-70cc-4be1-bc22-a343cac45656)
-```
-```
+
+
 ![image](https://github.com/user-attachments/assets/99a3a6cf-f717-4dd0-a87a-1f7f833d6355)
-```
----
+
 
 ## Exercice 2 : Rechercher de l’Information dans la Base de Données
 
@@ -94,9 +94,9 @@ String query2 = "SELECT Developpeurs, SUM(NbScripts) AS c FROM DevData GROUP BY 
 ```
 
 _**Capture d'écran :**_
-```
+
 ![image](https://github.com/user-attachments/assets/aa4e339e-fb79-40ae-9791-5f3fc62bb316)
-```
+
 
 ### 2. Calculer le nombre total de scripts réalisés en une semaine
 
@@ -107,9 +107,8 @@ String query3 = "SELECT SUM(NbScripts) AS TotalScripts FROM DevData";
 ```
 
 _**Capture d'écran :**_
-```
+
 ![image](https://github.com/user-attachments/assets/06842b38-4ed9-4ecf-a7e5-b7f4ece6a095)
-```
 
 ### 3. Calculer le nombre total de scripts pour un programmeur donné
 
@@ -123,11 +122,10 @@ String query4 = "SELECT Developpeurs, SUM(NbScripts) AS TotalScripts FROM DevDat
 ```
 
 _**Capture d'écran :**_
-```
-![image](https://github.com/user-attachments/assets/04b5d0fc-b674-4123-9a38-ea9bdcf3929b)
-```
 
----
+![image](https://github.com/user-attachments/assets/04b5d0fc-b674-4123-9a38-ea9bdcf3929b)
+
+
 
 ## Exercice 3 : Requête Libre et Métadonnées des Types de Données
 
@@ -157,16 +155,15 @@ for (int i = 1; i <= columnCount; i++) {
 ```
 
 _**Capture d'écran :**_
-```
+
 ![image](https://github.com/user-attachments/assets/31c543b3-f7f0-499f-8a0c-a5339aef2ab4)
-```
 
 Si la requête ne produit pas de `ResultSet` (requête `UPDATE` ou `DELETE`), affichez le nombre de lignes affectées.
 
 _**Capture d'écran :**_
-```
+
 ![image](https://github.com/user-attachments/assets/0f27c0d3-ef63-4120-a1c4-03f352a553de)
-```
+
 ## Les technologies utilisées sont :
 
 Java SE - Langage de programmation principal.
